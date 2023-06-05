@@ -1,0 +1,177 @@
+/* layout */
+body {
+  margin: 0;
+  background-color: #f2eae3;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.navbar-right{
+    padding-right: 100px ;
+  
+}
+.dg{
+    float: right;
+    padding-top: 55px ;
+    font-size: 15px;
+    padding-right: 10px ;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.dg:hover{
+    color: #993300;
+    
+}
+div.header {
+  background-color:#fff;
+  padding: 1px;
+  
+ 
+}
+
+footer{
+    background-color: #802b00;
+    color: #fff
+}
+#navbar {
+  overflow: hidden;
+  background-color: #802b00;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #cc4400;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #993300;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* Tin tức */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+   
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+/* trangchu */
+
+.card {
+    height: 70px;
+   width: 100px;
+    overflow:hidden;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+
+.text-img{
+  word-wrap: break-word;
+  font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.tc-main{
+  width: 700px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  border: 2px dotted #9c9595;
+  border-style: none none dotted; 
+  color: #fff; 
+ 
+}
+p.text-ell{
+  width: 500px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.b-word {
+ 
+  word-wrap: break-word;
+}
+button.bt-center{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+left: -12px;
+  height: 40px;
+width: 40px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px;
+}
+.carousel-control.right {
+right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+right: 50%;
+top: auto;
+bottom: -10px;
+margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+/* menu */
+ .hr{
+  border: 1px dotted #cecece;
+  border-style: none none dotted; 
+  color: #cecece;
+  background-color: #cecece;
+  margin-top:20px;
+ 
+}

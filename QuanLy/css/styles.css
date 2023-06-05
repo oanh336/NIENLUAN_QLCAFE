@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #1a1a1a;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: -110px 0px -110px -15px;
+    margin-right: 5px;
+
+
+  }
+
+  .topnav a:hover {
+    background-color: #1a1a1a;
+    color: black;
+    text-decoration: none;
+  } 
+
+  div a.active {
+    background-color: #262626;
+    color: white;
+    text-decoration: none;
+  }
+
+ /*
+ .topnav .search-container {
+    float: right;
+
+  }
+ 
+  .topnav input[type=text] {
+    padding: 6px 25px;
+    margin-top: 9px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  } */
+
+  /* .search-container button {
+    float: right;
+    padding: 6px 13px;
+    margin-top: 9px;
+    margin-right: 35px;
+    background: #818181;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    right: 0;
+  } */
+
+   .navbar-collapse {
+    float: right;
+    right: 0;
+    padding: 6px 10px;
+    margin-top: 9px;
+    margin-right: 20px;
+    background: #818181;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+/*
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+
+
+    .topnav input[type=text],
+    .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+
+    }
+
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  } */
+
+  /* Fixed sidenav, full height */
+  .sidenav {
+    z-index: 1;
+    left: 0;
+    background-color: #1a1a1a;
+    height: 100%;
+    width: 275px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    text-decoration: none;
+
+  }
+
+  .sidenav a {
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a,
+  .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .sidenav a:hover,
+  .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+
+  /* Main content */
+  #main {
+    margin-left: 250px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 100%) {
+    .sidenav {
+      padding-top: 5px;
+    }
+
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+
+
+
+  .openbtn {
+    
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+    margin: 10px;
+    border: none;
+  }
+
+  .topnav .icon{
+    color: white;
+ 
+  }
+
+
+  .topnav .icon:hover {
+    color: rgb(219, 213, 213);
+  }
+
+  #main {
+    transition: margin-left .2s;
+    padding: 15px;
+
+  }
+
+  .dropup {
+    /* background-color: #1a1a1a; */
+    margin-top: 95px;
+  }
+
+  .dropup i {
+    overflow: hidden;
+    /* background-color: #1a1a1a; */
+    position: fixed;
+
+    z-index: 1
+  }
+
+  /* .dropdown-menu {
+    background-color: #444;
+  } */
+
+
+  .dropdown-menu a {
+    float: left;
+    display: block;
+    color: #111111;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+
+  .dropdown-menu a:hover {
+    color: #161515;
+   
+  }
+td a{
+  color: #f1f1f1;
+}
+
+.search{
+  position: relative;
+  z-index: 1;
+}
+.btn-center{
+  text-align: center;
+}
